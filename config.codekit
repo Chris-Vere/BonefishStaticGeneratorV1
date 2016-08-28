@@ -4137,15 +4137,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 1
 		},
-	"\/scss\/components\/toggle-switch.scss": {
+	"\/scss\/components\/ui-switch.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 2,
 		"decimalPrecision": 4,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/components\/toggle-switch.scss",
-		"outputAbbreviatedPath": "\/scss\/css\/toggle-switch.css",
+		"inputAbbreviatedPath": "\/scss\/components\/ui-switch.scss",
+		"outputAbbreviatedPath": "\/scss\/css\/ui-switch.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,

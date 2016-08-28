@@ -32,24 +32,24 @@
                     <form class="page-status-form" action="/cms/page/updatePageState/" method="post">
                         <input type="hidden" name="page-id" value="PAGE_ID_HERE">
 
-                        <div class="page-state-toggler page-state-toggler--promptt" data-page-current-state="live">
-                            <legend class="page-state-toggler_caption">Page status:</legend>
-                            <div class="page-state-toggler_labels page-state-toggler_labels--page-status">
-                                <div class="page-state-toggler_input-wrap">
-                                    <input type="radio" class="page-state-toggler_radio" name="page-state" id="page-state--live"      value="live" checked>
-                                    <input type="radio" class="page-state-toggler_radio" name="page-state" id="page-state--draft"     value="draft">
-                                    <input type="radio" class="page-state-toggler_radio" name="page-state" id="page-state--scheduled" value="scheduled">
+                        <div class="ui-switch ui-switch--promptt" data-page-current-state="live">
+                            <legend class="ui-switch_caption">Page status:</legend>
+                            <div class="ui-switch_labels ui-switch_labels--page-status">
+                                <div class="ui-switch_input-wrap">
+                                    <input type="radio" class="ui-switch_radio" name="page-state" id="page-state--live"      value="live" checked>
+                                    <input type="radio" class="ui-switch_radio" name="page-state" id="page-state--draft"     value="draft">
+                                    <input type="radio" class="ui-switch_radio" name="page-state" id="page-state--scheduled" value="scheduled">
 
-                                    <label class="btn page-state-toggler_label" for="page-state--live">Live</label>
-                                    <label class="btn page-state-toggler_label" for="page-state--draft">Draft</label>
-                                    <label class="btn page-state-toggler_label" for="page-state--scheduled">Scheduled</label>
+                                    <label class="btn ui-switch_label" for="page-state--live">Live</label>
+                                    <label class="btn ui-switch_label" for="page-state--draft">Draft</label>
+                                    <label class="btn ui-switch_label" for="page-state--scheduled">Scheduled</label>
                                 </div>
-                                <div class="page-state-toggler_prompt">
-                                    <div class="page-state-toggler_prompt-title">Change page status?</div>
-                                    <div class="page-state-toggler_prompt-options">
-                                        <button class="page-state-toggler_prompt-option btn--confirm">Now</button>
-                                        <button class="page-state-toggler_prompt-option btn--yield">Later</button>
-                                        <button class="page-state-toggler_prompt-option btn--cancel">Cancel</button>
+                                <div class="ui-switch_prompt">
+                                    <div class="ui-switch_prompt-title">Change page status?</div>
+                                    <div class="ui-switch_prompt-options">
+                                        <button class="ui-switch_prompt-option btn--confirm">Now</button>
+                                        <button class="ui-switch_prompt-option btn--yield">Later</button>
+                                        <button class="ui-switch_prompt-option btn--cancel">Cancel</button>
                                     </div>
                                 </div>
                             </div>
