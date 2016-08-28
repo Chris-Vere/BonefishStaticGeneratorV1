@@ -1,0 +1,29 @@
+html{
+    font-family: "Helvetica Neue", Helvetica, Arial;
+    background-color: #444;
+    color: #ccc;
+}
+/*
+body{
+    position: relative;
+    &:after{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: block;
+        z-index: -1;
+        opacity: 0.35;
+        filter: blur(3px);
+        background-image: url("http://bonefishcapital.com/images/content/banners-homepage/02.jpg");
+        background-size: cover;
+        background-position: center center;
+    }
+}
+*/
+
+a{
+    color: $c-link;
+}

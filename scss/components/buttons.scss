@@ -1,0 +1,25 @@
+button,
+.btn{
+
+    border: none;
+    background: none;
+    color: #121212;
+    box-shadow: none;
+
+    padding: 0.4em 0.5em;
+    line-height: 1;
+    border-radius: $button-border-radius-amount;
+
+    &--confirm{
+        background-color: lime;
+    }
+
+    &--yield{
+        background-color: yellow;
+    }
+
+    &--cancel{
+        background-color: red;
+    }
+
+}

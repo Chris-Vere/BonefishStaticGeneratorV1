@@ -1,0 +1,16 @@
+html,
+body,
+.main-wrap{ height: 100%; }
+.main-wrap{
+    display: flex;
+    border: 1px solid yellow;
+}
+
+.left-rail{
+    border-right: 1px dashed yellow;
+    height: 100%;
+}
+
+.main{
+    flex: 1;
+}

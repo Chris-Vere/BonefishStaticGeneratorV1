@@ -1,0 +1,23 @@
+.pg-header{
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    border: 1px solid red;
+}
+
+.pg-heading{
+    margin: 0 1rem 0 0;
+}
+
+.pg-heading_secondary{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    border: 1px dashed green;
+}
+
+.page-status-form{
+    flex: 1;
+    display: flex;
+}

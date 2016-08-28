@@ -1,0 +1,24 @@
+Left Navigation
+
+	•	Pages
+	⁃	Add a page — button at top
+	1.	User enters page name
+	2.	User selects navigation location
+	3.	Page is created within system
+	4.	User is brought to page editor page
+	⁃	Edit a page — click on page in list
+	1.	User is brought to page editor page
+	⁃	Move a page — drag page within list
+	1.	Modal- Move page now or upon save?
+	⁃	Move now: system makes the update and renders all pages with the updated navigation
+	⁃	Upon save: do above upon user save
+	⁃	Delete a page — button next to page in list
+	•	User confirm
+	⁃	Yes- make update
+	⁃	No- put page back with UI
+	•	Images
+	•	Events
+	•	News
+	•	People
+	•	
+	•	

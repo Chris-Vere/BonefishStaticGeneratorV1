@@ -1,0 +1,776 @@
+/*! normalize.css v4.2.0 | MIT License | github.com/necolas/normalize.css */
+/**
+ * 1. Change the default font family in all browsers (opinionated).
+ * 2. Correct the line height in all browsers.
+ * 3. Prevent adjustments of font size after orientation changes in IE and iOS.
+ */
+/* Document
+   ========================================================================== */
+/* line 12, /Users/christophervere/Documents/Sites/Bonefish/BonefishStaticGeneratorV1/scss/general/normalize.scss */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  line-height: 1.15;
+  /* 2 */
+  -ms-text-size-adjust: 100%;
+  /* 3 */
+  -webkit-text-size-adjust: 100%;
+  /* 3 */
+  box-sizing: border-box;
+}
+
+/* line 21, /Users/christophervere/Documents/Sites/Bonefish/BonefishStaticGeneratorV1/scss/general/normalize.scss */
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers (opinionated).
+ */
+/* line 32, /Users/christophervere/Documents/Sites/Bonefish/BonefishStaticGeneratorV1/scss/general/normalize.scss */
+body {
+  margin: 0;
+}
+
+/**
+ * Add the correct display in IE 9-.
+ */
+/* line 40, /Users/christophervere/Documents/Sites/Bonefish/BonefishStaticGeneratorV1/scss/general/normalize.scss */
+article,
+aside,
+footer,
+header,
+nav,
+section {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+/* line 54, /Users/christophervere/Documents/Sites/Bonefish/BonefishStaticGeneratorV1/scss/general/normalize.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * Add the correct display in IE 9-.
+ * 1. Add the correct display in IE.
+ */
+/* line 67, /Users/christophervere/Documents/Sites/Bonefish/BonefishStaticGeneratorV1/scss/general/normalize.scss */
+figcaption,
+figure,
+main {
+  /* 1 */
+  display: block;
+}
+
+/**
+ * Add the correct margin in IE 8.
+ */
+/* line 77, /Users/christophervere/Documents/Sites/Bonefish/BonefishStaticGeneratorV1/scss/general/normalize.scss */
+figure {
+  margin: 1em 40px;
+}
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+/* line 86, /Users/christophervere/Documents/Sites/Bonefish/BonefishStaticGeneratorV1/scss/general/normalize.scss */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+/* line 97, /Users/christophervere/Documents/Sites/Bonefish/BonefishStaticGeneratorV1/scss/general/normalize.scss */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * 1. Remove the gray background on active links in IE 10.
+ * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
+ */
+/* line 110, /Users/christophervere/Documents/Sites/Bonefish/BonefishStaticGeneratorV1/scss/general/normalize.scss */
+a {
+  background-color: transparent;
+  /* 1 */
+  -webkit-text-decoration-skip: objects;
+  /* 2 */
+}
+
+/**
+ * Remove the outline on focused links when they are also active or hovered
+ * in all browsers (opinionated).
+ */
+/* line 120, /Users/christophervere/Documents/Sites/Bonefish/BonefishStaticGeneratorV1/scss/general/normalize.scss */
+a:active,
+a:hover {
+  outline-width: 0;
+}
+
+/**
+ * 1. Remove the bottom border in Firefox 39-.
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+/* line 130, /Users/christophervere/Documents/Sites/Bonefish/BonefishStaticGeneratorV1/scss/general/normalize.scss */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+ * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
+ */
+/* line 140, /Users/christophervere/Documents/Sites/Bonefish/BonefishStaticGeneratorV1/scss/general/normalize.scss */
+b,
+strong {
+  font-weight: inherit;
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+/* line 149, /Users/christophervere/Documents/Sites/Bonefish/BonefishStaticGeneratorV1/scss/general/normalize.scss */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+/* line 159, /Users/christophervere/Documents/Sites/Bonefish/BonefishStaticGeneratorV1/scss/general/normalize.scss */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+ * Add the correct font style in Android 4.3-.
+ */
+/* line 170, /Users/christophervere/Documents/Sites/Bonefish/BonefishStaticGeneratorV1/scss/general/normalize.scss */
+dfn {
+  font-style: italic;
+}
+
+/**
+ * Add the correct background and color in IE 9-.
+ */
+/* line 178, /Users/christophervere/Documents/Sites/Bonefish/BonefishStaticGeneratorV1/scss/general/normalize.scss */
+mark {
+  background-color: #ff0;
+  color: #000;
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+/* line 187, /Users/christophervere/Documents/Sites/Bonefish/BonefishStaticGeneratorV1/scss/general/normalize.scss */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+/* line 196, /Users/christophervere/Documents/Sites/Bonefish/BonefishStaticGeneratorV1/scss/general/normalize.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 204, /Users/christophervere/Documents/Sites/Bonefish/BonefishStaticGeneratorV1/scss/general/normalize.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* line 208, /Users/christophervere/Documents/Sites/Bonefish/BonefishStaticGeneratorV1/scss/general/normalize.scss */
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Add the correct display in IE 9-.
+ */
+/* line 219, /Users/christophervere/Documents/Sites/Bonefish/BonefishStaticGeneratorV1/scss/general/normalize.scss */
+audio,
+video {
+  display: inline-block;
+}
+
+/**
+ * Add the correct display in iOS 4-7.
+ */
+/* line 228, /Users/christophervere/Documents/Sites/Bonefish/BonefishStaticGeneratorV1/scss/general/normalize.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/**
+ * Remove the border on images inside links in IE 10-.
+ */
+/* line 237, /Users/christophervere/Documents/Sites/Bonefish/BonefishStaticGeneratorV1/scss/general/normalize.scss */
+img {
+  border-style: none;
+}
+
+/**
+ * Hide the overflow in IE.
+ */
+/* line 245, /Users/christophervere/Documents/Sites/Bonefish/BonefishStaticGeneratorV1/scss/general/normalize.scss */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change font properties to `inherit` in all browsers (opinionated).
+ * 2. Remove the margin in Firefox and Safari.
+ */
+/* line 257, /Users/christophervere/Documents/Sites/Bonefish/BonefishStaticGeneratorV1/scss/general/normalize.scss */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font: inherit;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+/**
+ * Restore the font weight unset by the previous rule.
+ */
+/* line 270, /Users/christophervere/Documents/Sites/Bonefish/BonefishStaticGeneratorV1/scss/general/normalize.scss */
+optgroup {
+  font-weight: bold;
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+/* line 279, /Users/christophervere/Documents/Sites/Bonefish/BonefishStaticGeneratorV1/scss/general/normalize.scss */
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+/* line 289, /Users/christophervere/Documents/Sites/Bonefish/BonefishStaticGeneratorV1/scss/general/normalize.scss */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+ * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`
+ *    controls in Android 4.
+ * 2. Correct the inability to style clickable types in iOS and Safari.
+ */
+/* line 300, /Users/christophervere/Documents/Sites/Bonefish/BonefishStaticGeneratorV1/scss/general/normalize.scss */
+button,
+html [type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+/* line 311, /Users/christophervere/Documents/Sites/Bonefish/BonefishStaticGeneratorV1/scss/general/normalize.scss */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+/* line 323, /Users/christophervere/Documents/Sites/Bonefish/BonefishStaticGeneratorV1/scss/general/normalize.scss */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Change the border, margin, and padding in all browsers (opinionated).
+ */
+/* line 334, /Users/christophervere/Documents/Sites/Bonefish/BonefishStaticGeneratorV1/scss/general/normalize.scss */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+/* line 347, /Users/christophervere/Documents/Sites/Bonefish/BonefishStaticGeneratorV1/scss/general/normalize.scss */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
+ * 1. Add the correct display in IE 9-.
+ * 2. Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+/* line 361, /Users/christophervere/Documents/Sites/Bonefish/BonefishStaticGeneratorV1/scss/general/normalize.scss */
+progress {
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */
+}
+
+/**
+ * Remove the default vertical scrollbar in IE.
+ */
+/* line 370, /Users/christophervere/Documents/Sites/Bonefish/BonefishStaticGeneratorV1/scss/general/normalize.scss */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10-.
+ * 2. Remove the padding in IE 10-.
+ */
+/* line 379, /Users/christophervere/Documents/Sites/Bonefish/BonefishStaticGeneratorV1/scss/general/normalize.scss */
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+/* line 389, /Users/christophervere/Documents/Sites/Bonefish/BonefishStaticGeneratorV1/scss/general/normalize.scss */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+/* line 399, /Users/christophervere/Documents/Sites/Bonefish/BonefishStaticGeneratorV1/scss/general/normalize.scss */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+ * Remove the inner padding and cancel buttons in Chrome and Safari on OS X.
+ */
+/* line 408, /Users/christophervere/Documents/Sites/Bonefish/BonefishStaticGeneratorV1/scss/general/normalize.scss */
+[type="search"]::-webkit-search-cancel-button,
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+/* line 418, /Users/christophervere/Documents/Sites/Bonefish/BonefishStaticGeneratorV1/scss/general/normalize.scss */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in IE 9-.
+ * 1. Add the correct display in Edge, IE, and Firefox.
+ */
+/* line 431, /Users/christophervere/Documents/Sites/Bonefish/BonefishStaticGeneratorV1/scss/general/normalize.scss */
+details,
+menu {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+/* line 440, /Users/christophervere/Documents/Sites/Bonefish/BonefishStaticGeneratorV1/scss/general/normalize.scss */
+summary {
+  display: list-item;
+}
+
+/* Scripting
+   ========================================================================== */
+/**
+ * Add the correct display in IE 9-.
+ */
+/* line 451, /Users/christophervere/Documents/Sites/Bonefish/BonefishStaticGeneratorV1/scss/general/normalize.scss */
+canvas {
+  display: inline-block;
+}
+
+/**
+ * Add the correct display in IE.
+ */
+/* line 459, /Users/christophervere/Documents/Sites/Bonefish/BonefishStaticGeneratorV1/scss/general/normalize.scss */
+template {
+  display: none;
+}
+
+/* Hidden
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10-.
+ */
+/* line 470, /Users/christophervere/Documents/Sites/Bonefish/BonefishStaticGeneratorV1/scss/general/normalize.scss */
+[hidden] {
+  display: none;
+}
+
+/* line 1, /Users/christophervere/Documents/Sites/Bonefish/BonefishStaticGeneratorV1/scss/layout.scss */
+html,
+body,
+.main-wrap {
+  height: 100%;
+}
+
+/* line 4, /Users/christophervere/Documents/Sites/Bonefish/BonefishStaticGeneratorV1/scss/layout.scss */
+.main-wrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid yellow;
+}
+
+/* line 9, /Users/christophervere/Documents/Sites/Bonefish/BonefishStaticGeneratorV1/scss/layout.scss */
+.left-rail {
+  border-right: 1px dashed yellow;
+  height: 100%;
+}
+
+/* line 14, /Users/christophervere/Documents/Sites/Bonefish/BonefishStaticGeneratorV1/scss/layout.scss */
+.main {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+/* line 1, /Users/christophervere/Documents/Sites/Bonefish/BonefishStaticGeneratorV1/scss/components/buttons.scss */
+button,
+.btn {
+  border: none;
+  background: none;
+  color: #121212;
+  box-shadow: none;
+  padding: 0.4em 0.5em;
+  line-height: 1;
+  border-radius: 0.25em;
+}
+
+/* line 13, /Users/christophervere/Documents/Sites/Bonefish/BonefishStaticGeneratorV1/scss/components/buttons.scss */
+button--confirm,
+.btn--confirm {
+  background-color: lime;
+}
+
+/* line 17, /Users/christophervere/Documents/Sites/Bonefish/BonefishStaticGeneratorV1/scss/components/buttons.scss */
+button--yield,
+.btn--yield {
+  background-color: yellow;
+}
+
+/* line 21, /Users/christophervere/Documents/Sites/Bonefish/BonefishStaticGeneratorV1/scss/components/buttons.scss */
+button--cancel,
+.btn--cancel {
+  background-color: red;
+}
+
+/* line 1, /Users/christophervere/Documents/Sites/Bonefish/BonefishStaticGeneratorV1/scss/components/toggle-switch.scss */
+.page-state-toggler_labels--page-status [type="radio"]:nth-child(1):checked ~ label:nth-of-type(1), .page-state-toggler_labels--page-status [type="radio"]:nth-child(2):checked ~ label:nth-of-type(2), .page-state-toggler_labels--page-status [type="radio"]:nth-child(3):checked ~ label:nth-of-type(3) {
+  box-shadow: 0 0 5px #000;
+  color: #121212;
+}
+
+/* line 6, /Users/christophervere/Documents/Sites/Bonefish/BonefishStaticGeneratorV1/scss/components/toggle-switch.scss */
+.page-state-toggler {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: auto;
+  font-size: 0.8em;
+  font-size: 1em;
+  border: none;
+}
+
+/* line 15, /Users/christophervere/Documents/Sites/Bonefish/BonefishStaticGeneratorV1/scss/components/toggle-switch.scss */
+.page-state-toggler_caption {
+  -webkit-align-self: flex-start;
+      -ms-flex-item-align: start;
+          align-self: flex-start;
+  padding: 0.8em 0;
+}
+
+/* line 20, /Users/christophervere/Documents/Sites/Bonefish/BonefishStaticGeneratorV1/scss/components/toggle-switch.scss */
+.page-state-toggler_labels {
+  margin-left: 1em;
+  position: relative;
+  overflow: hidden;
+}
+
+/* line 26, /Users/christophervere/Documents/Sites/Bonefish/BonefishStaticGeneratorV1/scss/components/toggle-switch.scss */
+.page-state-toggler_input-wrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0.4em;
+  border-radius: 0.25em;
+  background-color: #333;
+  box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.5);
+}
+
+/* line 34, /Users/christophervere/Documents/Sites/Bonefish/BonefishStaticGeneratorV1/scss/components/toggle-switch.scss */
+.page-state-toggler_label {
+  display: block;
+  color: #ddd;
+}
+
+/* line 39, /Users/christophervere/Documents/Sites/Bonefish/BonefishStaticGeneratorV1/scss/components/toggle-switch.scss */
+.page-state-toggler_radio {
+  display: none;
+}
+
+/* line 54, /Users/christophervere/Documents/Sites/Bonefish/BonefishStaticGeneratorV1/scss/components/toggle-switch.scss */
+.page-state-toggler_labels--page-status [type="radio"]:nth-child(1):checked ~ label:nth-of-type(1) {
+  background-color: lime;
+  background-image: -webkit-linear-gradient(lime, #00b300);
+  background-image: linear-gradient(lime, #00b300);
+}
+
+/* line 54, /Users/christophervere/Documents/Sites/Bonefish/BonefishStaticGeneratorV1/scss/components/toggle-switch.scss */
+.page-state-toggler_labels--page-status [type="radio"]:nth-child(2):checked ~ label:nth-of-type(2) {
+  background-color: red;
+  background-image: -webkit-linear-gradient(red, #b30000);
+  background-image: linear-gradient(red, #b30000);
+  color: white;
+}
+
+/* line 54, /Users/christophervere/Documents/Sites/Bonefish/BonefishStaticGeneratorV1/scss/components/toggle-switch.scss */
+.page-state-toggler_labels--page-status [type="radio"]:nth-child(3):checked ~ label:nth-of-type(3) {
+  background-color: yellow;
+  background-image: -webkit-linear-gradient(yellow, #b3b300);
+  background-image: linear-gradient(yellow, #b3b300);
+}
+
+/* line 69, /Users/christophervere/Documents/Sites/Bonefish/BonefishStaticGeneratorV1/scss/components/toggle-switch.scss */
+.page-state-toggler_prompt {
+  -webkit-flex-basis: 100%;
+      -ms-flex-preferred-size: 100%;
+          flex-basis: 100%;
+  width: 100%;
+  position: absolute;
+  left: 50%;
+}
+
+/* line 75, /Users/christophervere/Documents/Sites/Bonefish/BonefishStaticGeneratorV1/scss/components/toggle-switch.scss */
+.page-state-toggler_prompt-title {
+  text-align: center;
+  margin-bottom: 0.5em;
+}
+
+/* line 80, /Users/christophervere/Documents/Sites/Bonefish/BonefishStaticGeneratorV1/scss/components/toggle-switch.scss */
+.page-state-toggler_prompt-options {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/* line 84, /Users/christophervere/Documents/Sites/Bonefish/BonefishStaticGeneratorV1/scss/components/toggle-switch.scss */
+.page-state-toggler_prompt-option {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+/* line 90, /Users/christophervere/Documents/Sites/Bonefish/BonefishStaticGeneratorV1/scss/components/toggle-switch.scss */
+.page-state-toggler--prompt .page-state-toggler_input-wrap {
+  -webkit-transform: translateY(-100%);
+          transform: translateY(-100%);
+}
+
+/* line 93, /Users/christophervere/Documents/Sites/Bonefish/BonefishStaticGeneratorV1/scss/components/toggle-switch.scss */
+.page-state-toggler--prompt .page-state-toggler_prompt {
+  -webkit-transform: translateX(-50%) translateY(-100%);
+          transform: translateX(-50%) translateY(-100%);
+}
+
+/* line 1, /Users/christophervere/Documents/Sites/Bonefish/BonefishStaticGeneratorV1/scss/components/site.scss */
+html {
+  font-family: "Helvetica Neue", Helvetica, Arial;
+  background-color: #444;
+  color: #ccc;
+}
+
+/*
+body{
+    position: relative;
+    &:after{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: block;
+        z-index: -1;
+        opacity: 0.35;
+        filter: blur(3px);
+        background-image: url("http://bonefishcapital.com/images/content/banners-homepage/02.jpg");
+        background-size: cover;
+        background-position: center center;
+    }
+}
+*/
+/* line 27, /Users/christophervere/Documents/Sites/Bonefish/BonefishStaticGeneratorV1/scss/components/site.scss */
+a {
+  color: yellow;
+}
+
+/* line 1, /Users/christophervere/Documents/Sites/Bonefish/BonefishStaticGeneratorV1/scss/components/header.scss */
+.pg-header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1rem;
+  border: 1px solid red;
+}
+
+/* line 8, /Users/christophervere/Documents/Sites/Bonefish/BonefishStaticGeneratorV1/scss/components/header.scss */
+.pg-heading {
+  margin: 0 1rem 0 0;
+}
+
+/* line 12, /Users/christophervere/Documents/Sites/Bonefish/BonefishStaticGeneratorV1/scss/components/header.scss */
+.pg-heading_secondary {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: 1px dashed green;
+}
+
+/* line 20, /Users/christophervere/Documents/Sites/Bonefish/BonefishStaticGeneratorV1/scss/components/header.scss */
+.page-status-form {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/* line 1, /Users/christophervere/Documents/Sites/Bonefish/BonefishStaticGeneratorV1/scss/components/left-rail.scss */
+.left-rail {
+  padding: 1em;
+}
+/*# sourceMappingURL=cms-styles.css.map */
