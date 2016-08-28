@@ -1,2 +1,2 @@
-function log(e){console.log(e)}function qs(){return 1===arguments.length?document.querySelector(arguments[0]):arguments[1].querySelector(arguments[0])}function qsa(){return 1===arguments.length?document.querySelectorAll(arguments[0]):arguments[1].querySelectorAll(arguments[0])}
+function log(e){console.log(e)}function qs(){return 1===arguments.length?document.querySelector(arguments[0]):arguments[1].querySelector(arguments[0])}function qsa(){return 1===arguments.length?document.querySelectorAll(arguments[0]):arguments[1].querySelectorAll(arguments[0])}log("ui-switch");
 //# sourceMappingURL=./scripts-cms-min.js.map

@@ -4077,7 +4077,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 2,
-		"syntaxCheckerStyle": 1
+		"syntaxCheckerStyle": 0
 		},
 	"\/js\/min\/utils-min.js": {
 		"fileType": 64,
@@ -4181,22 +4181,6 @@
 		"shouldRunBless": 0,
 		"useLibsass": 1
 		},
-	"\/scss\/components\/ui-switch.scss": {
-		"createSourceMap": 1,
-		"debugStyle": 2,
-		"decimalPrecision": 4,
-		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/components\/ui-switch.scss",
-		"outputAbbreviatedPath": "\/scss\/css\/ui-switch.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"shouldRunAutoprefixer": 1,
-		"shouldRunBless": 0,
-		"useLibsass": 1
-		},
 	"\/scss\/general\/color.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 2,
@@ -4285,6 +4269,33 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/ui\/ui-switch\/ui-switch.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/ui\/ui-switch\/ui-switch.js",
+		"outputAbbreviatedPath": "\/ui\/ui-switch\/min\/ui-switch-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/ui\/ui-switch\/ui-switch.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 2,
+		"decimalPrecision": 4,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/ui\/ui-switch\/ui-switch.scss",
+		"outputAbbreviatedPath": "\/ui\/css\/ui-switch.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": 1
 		}
 	},
 "hooks": [

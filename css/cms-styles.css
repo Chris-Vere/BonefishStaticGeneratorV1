@@ -559,13 +559,13 @@ button--cancel,
   background-color: red;
 }
 
-/* line 1, /Users/christophervere/Documents/Sites/Bonefish/BonefishStaticGeneratorV1/scss/components/ui-switch.scss */
+/* line 1, /Users/christophervere/Documents/Sites/Bonefish/BonefishStaticGeneratorV1/ui/ui-switch/ui-switch.scss */
 .ui-switch_labels--page-status [type="radio"]:nth-child(1):checked ~ label:nth-of-type(1), .ui-switch_labels--page-status [type="radio"]:nth-child(2):checked ~ label:nth-of-type(2), .ui-switch_labels--page-status [type="radio"]:nth-child(3):checked ~ label:nth-of-type(3) {
   box-shadow: 0 0 5px #000;
   color: #121212;
 }
 
-/* line 6, /Users/christophervere/Documents/Sites/Bonefish/BonefishStaticGeneratorV1/scss/components/ui-switch.scss */
+/* line 6, /Users/christophervere/Documents/Sites/Bonefish/BonefishStaticGeneratorV1/ui/ui-switch/ui-switch.scss */
 .ui-switch {
   display: -webkit-box;
   display: -webkit-flex;
@@ -584,7 +584,7 @@ button--cancel,
   border: none;
 }
 
-/* line 15, /Users/christophervere/Documents/Sites/Bonefish/BonefishStaticGeneratorV1/scss/components/ui-switch.scss */
+/* line 15, /Users/christophervere/Documents/Sites/Bonefish/BonefishStaticGeneratorV1/ui/ui-switch/ui-switch.scss */
 .ui-switch_caption {
   -webkit-align-self: flex-start;
       -ms-flex-item-align: start;
@@ -592,14 +592,14 @@ button--cancel,
   padding: 0.8em 0;
 }
 
-/* line 20, /Users/christophervere/Documents/Sites/Bonefish/BonefishStaticGeneratorV1/scss/components/ui-switch.scss */
+/* line 20, /Users/christophervere/Documents/Sites/Bonefish/BonefishStaticGeneratorV1/ui/ui-switch/ui-switch.scss */
 .ui-switch_labels {
   margin-left: 1em;
   position: relative;
   overflow: hidden;
 }
 
-/* line 26, /Users/christophervere/Documents/Sites/Bonefish/BonefishStaticGeneratorV1/scss/components/ui-switch.scss */
+/* line 26, /Users/christophervere/Documents/Sites/Bonefish/BonefishStaticGeneratorV1/ui/ui-switch/ui-switch.scss */
 .ui-switch_input-wrap {
   display: -webkit-box;
   display: -webkit-flex;
@@ -611,25 +611,25 @@ button--cancel,
   box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.5);
 }
 
-/* line 34, /Users/christophervere/Documents/Sites/Bonefish/BonefishStaticGeneratorV1/scss/components/ui-switch.scss */
+/* line 34, /Users/christophervere/Documents/Sites/Bonefish/BonefishStaticGeneratorV1/ui/ui-switch/ui-switch.scss */
 .ui-switch_label {
   display: block;
   color: #ddd;
 }
 
-/* line 39, /Users/christophervere/Documents/Sites/Bonefish/BonefishStaticGeneratorV1/scss/components/ui-switch.scss */
+/* line 39, /Users/christophervere/Documents/Sites/Bonefish/BonefishStaticGeneratorV1/ui/ui-switch/ui-switch.scss */
 .ui-switch_radio {
   display: none;
 }
 
-/* line 54, /Users/christophervere/Documents/Sites/Bonefish/BonefishStaticGeneratorV1/scss/components/ui-switch.scss */
+/* line 54, /Users/christophervere/Documents/Sites/Bonefish/BonefishStaticGeneratorV1/ui/ui-switch/ui-switch.scss */
 .ui-switch_labels--page-status [type="radio"]:nth-child(1):checked ~ label:nth-of-type(1) {
   background-color: lime;
   background-image: -webkit-linear-gradient(lime, #00b300);
   background-image: linear-gradient(lime, #00b300);
 }
 
-/* line 54, /Users/christophervere/Documents/Sites/Bonefish/BonefishStaticGeneratorV1/scss/components/ui-switch.scss */
+/* line 54, /Users/christophervere/Documents/Sites/Bonefish/BonefishStaticGeneratorV1/ui/ui-switch/ui-switch.scss */
 .ui-switch_labels--page-status [type="radio"]:nth-child(2):checked ~ label:nth-of-type(2) {
   background-color: red;
   background-image: -webkit-linear-gradient(red, #b30000);
@@ -637,14 +637,14 @@ button--cancel,
   color: white;
 }
 
-/* line 54, /Users/christophervere/Documents/Sites/Bonefish/BonefishStaticGeneratorV1/scss/components/ui-switch.scss */
+/* line 54, /Users/christophervere/Documents/Sites/Bonefish/BonefishStaticGeneratorV1/ui/ui-switch/ui-switch.scss */
 .ui-switch_labels--page-status [type="radio"]:nth-child(3):checked ~ label:nth-of-type(3) {
   background-color: yellow;
   background-image: -webkit-linear-gradient(yellow, #b3b300);
   background-image: linear-gradient(yellow, #b3b300);
 }
 
-/* line 69, /Users/christophervere/Documents/Sites/Bonefish/BonefishStaticGeneratorV1/scss/components/ui-switch.scss */
+/* line 69, /Users/christophervere/Documents/Sites/Bonefish/BonefishStaticGeneratorV1/ui/ui-switch/ui-switch.scss */
 .ui-switch_prompt {
   -webkit-flex-basis: 100%;
       -ms-flex-preferred-size: 100%;
@@ -654,13 +654,13 @@ button--cancel,
   left: 50%;
 }
 
-/* line 75, /Users/christophervere/Documents/Sites/Bonefish/BonefishStaticGeneratorV1/scss/components/ui-switch.scss */
+/* line 75, /Users/christophervere/Documents/Sites/Bonefish/BonefishStaticGeneratorV1/ui/ui-switch/ui-switch.scss */
 .ui-switch_prompt-title {
   text-align: center;
   margin-bottom: 0.5em;
 }
 
-/* line 80, /Users/christophervere/Documents/Sites/Bonefish/BonefishStaticGeneratorV1/scss/components/ui-switch.scss */
+/* line 80, /Users/christophervere/Documents/Sites/Bonefish/BonefishStaticGeneratorV1/ui/ui-switch/ui-switch.scss */
 .ui-switch_prompt-options {
   display: -webkit-box;
   display: -webkit-flex;
@@ -668,7 +668,7 @@ button--cancel,
   display: flex;
 }
 
-/* line 84, /Users/christophervere/Documents/Sites/Bonefish/BonefishStaticGeneratorV1/scss/components/ui-switch.scss */
+/* line 84, /Users/christophervere/Documents/Sites/Bonefish/BonefishStaticGeneratorV1/ui/ui-switch/ui-switch.scss */
 .ui-switch_prompt-option {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
@@ -676,13 +676,13 @@ button--cancel,
           flex: 1;
 }
 
-/* line 90, /Users/christophervere/Documents/Sites/Bonefish/BonefishStaticGeneratorV1/scss/components/ui-switch.scss */
+/* line 90, /Users/christophervere/Documents/Sites/Bonefish/BonefishStaticGeneratorV1/ui/ui-switch/ui-switch.scss */
 .ui-switch--prompt .page-state-toggler_input-wrap {
   -webkit-transform: translateY(-100%);
           transform: translateY(-100%);
 }
 
-/* line 93, /Users/christophervere/Documents/Sites/Bonefish/BonefishStaticGeneratorV1/scss/components/ui-switch.scss */
+/* line 93, /Users/christophervere/Documents/Sites/Bonefish/BonefishStaticGeneratorV1/ui/ui-switch/ui-switch.scss */
 .ui-switch--prompt .page-state-toggler_prompt {
   -webkit-transform: translateX(-50%) translateY(-100%);
           transform: translateX(-50%) translateY(-100%);

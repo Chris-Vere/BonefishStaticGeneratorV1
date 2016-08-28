@@ -58,5 +58,6 @@
                 </header>
             </main>
         </div>
+        <script src="/js/cms/min/scripts-cms-min.js"></script>
     </body>
 </html>
