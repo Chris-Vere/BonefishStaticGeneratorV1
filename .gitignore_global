@@ -1,0 +1,10 @@
+## Ignore Mac OS Stuff
+.DS_Store
+
+# Dropbox settings and caches
+.dropbox
+.dropbox.attr
+.dropbox.cache
+
+# General CodeKit files to ignore
+config.codekit
